@@ -7,12 +7,9 @@
     "light": "#3b82f6",
     "dark": "#1d4ed8"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
+    "groups": [
           {
             "group": "Introduction",
             "pages": [
@@ -32,29 +29,7 @@
               "essentials/reusable-snippets"
             ]
           }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
+        ],
     "global": {
       "anchors": [
         {

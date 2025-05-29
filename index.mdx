@@ -36,10 +36,10 @@ You describe what you want. Easel builds it.
 It only takes a few minutes to build your first real, working app — with zero setup.
 
 <CardGroup cols={2}>
-  <Card title="Create Your First App" icon="stairs" href="/what-is-easel">
+  <Card title="Create Your First App" icon="stairs" href="/quickstart" cta="Try now">
     Learn how to use Easel to build websites and apps.
   </Card>
-  <Card title="Prompt Engineering" icon="robot">
+  <Card title="Prompt Engineering" icon="robot" href="/prompt-engineering" cta="Read now">
     Learn how to write effective prompts to get the most out of your messages with Easel.
   </Card>
 </CardGroup>
@@ -52,13 +52,26 @@ Whether you’re a developer or you’ve never written code before, Easel helps 
 
 ### The Core Workflow
 
-<Tip>
-  Easel is designed around a simple but powerful loop:
-</Tip>
+Easel is designed around a simple but powerful workflow:
 
-```text
-Describe → Generate → Edit (optional) → Preview → Deploy (optional)
+<div className="flex justify-center">
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#3b82f61a',
+      'primaryTextColor': '#3b82f6',
+      'primaryBorderColor': '#3b82f61a',
+      'lineColor': '#1d4ed8'
+    }
+  }
+}%%
+flowchart LR
+  A(<span class="font-semibold">Prompt</span>) --> D(<span class="font-semibold">Preview</span>) --> E(<span class="font-semibold">Deploy</span>)
+  D --> A
 ```
+</div>
 
 - **Describe** your app or feature in plain language.
 - Easel **generates** the UI, layout, and logic instantly.
@@ -72,4 +85,21 @@ Describe → Generate → Edit (optional) → Preview → Deploy (optional)
 
 ### What can you build with Easel?
 
-Easel can build landing pages, forms, individual components, apps, and more.
+Easel is versatile and can build a wide range of apps and components. It's only limited by your imagination and prompt engineering skills.
+
+Some examples of what you can build with Easel:
+
+<CardGroup cols={2}>
+  <Card title="Landing Pages" icon="browser">
+    Demonstrate your product or service with a beautiful landing page.
+  </Card>
+  <Card title="Forms" icon="puzzle">
+    Collect user feedback with a form that sends emails to your team.
+  </Card>
+  <Card title="Components" icon="diamonds-4">
+    Build reusable components like buttons, modals, and cards.
+  </Card>
+  <Card title="Apps" icon="window">
+    Build a full-stack app with a database, authentication, and more.
+  </Card>
+</CardGroup>
