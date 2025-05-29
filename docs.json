@@ -4,8 +4,8 @@
   "name": "Easel Documentation",
   "colors": {
     "primary": "#3b82f6",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#3b82f6",
+    "dark": "#1d4ed8"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -70,7 +70,7 @@
         {
           "anchor": "Status",
           "href": "https://easel.onlineornot.com",
-          "icon": "stats"
+          "icon": "timer"
         }
       ]
     }
