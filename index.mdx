@@ -8,60 +8,68 @@ Easel is a full-stack app builder that turns natural language into real, working
 You describe what you want. Easel builds it.
 
 <img
-  className="block rounded-2xl"
-  src="/Frame55.png"
+  className="hidden dark:block rounded-2xl"
+  src="/images/hero-dark.png"
   alt="App preview of Easel UI"
   title={true}
 />
+
+<img
+  className="block dark:hidden rounded-2xl"
+  src="/images/hero-light.png"
+  alt="App preview of Easel UI"
+  title={true}
+/>
+
+## Roadmap
+
+| **Feature**      | **Description**                               | **Maturity Level** |
+| ---------------- | --------------------------------------------- | ------------------ |
+| Frontend / UI    | Build websites and user interfaces with Easel | 🟢 Mature          |
+| Data Persistence | Store and retrieve data with a database       | 🕑 Coming soon     |
+| Authentication   | Allow users to log in to your app             | 🕑 Coming soon     |
+| API Keys         | Securely store api keys                       | 🕑 Coming soon     |
+| Deployment       | Host and deploy your sites with Easel         | 🕑 Coming soon     |
 
 ## Getting Started
 
 It only takes a few minutes to build your first real, working app — with zero setup.
 
 <CardGroup cols={2}>
-  <Card title="What is Easel?" icon="pen-to-square" href="/what-is-easel">
-    Learn how Easel works and what makes it different from other builders.
+  <Card title="Create Your First App" icon="stairs" href="/what-is-easel">
+    Learn how to use Easel to build websites and apps.
   </Card>
-  <Card title="Create Your First App" icon="rocket" href="/getting-started/create-your-first-app">
-    Go from idea to live preview in just a few prompts.
-  </Card>
-</CardGroup>
-
-## Build Your Way
-
-Easel is built for developers and non-coders alike. Use prompts, tweak the code, or do both — your workflow, your choice.
-
-<CardGroup cols={2}>
-  <Card title="Prompt Like a Pro" icon="magic" href="/prompting/writing-great-prompts">
-    Master the art of describing your ideas to Easel clearly and effectively.
-  </Card>
-  <Card title="Visual Editing + Code" icon="code" href="/how-easel-works/code-vs-visual">
-    Use the visual editor, the code editor, or switch between them anytime.
+  <Card title="Prompt Engineering" icon="robot">
+    Learn how to write effective prompts to get the most out of your messages with Easel.
   </Card>
 </CardGroup>
 
-## Go Beyond UI
+## What is Easel?
 
-Easel doesn't stop at screens and components. Connect data, add logic, and publish — all from the same place.
+Easel is a full-stack app builder powered by natural language. You describe what you want to build, and Easel turns it into working code — complete with components, logic, layout, and interactivity.
 
-<CardGroup cols={2}>
-  <Card title="Add Interactivity" icon="bolt" href="/interactivity/adding-events">
-    Add buttons, forms, navigation, and interactive logic with ease.
-  </Card>
-  <Card title="Use Real Data" icon="database" href="/data/connecting-data">
-    Display real data from APIs, Supabase, or your own backend.
-  </Card>
-</CardGroup>
+Whether you’re a developer or you’ve never written code before, Easel helps you go from idea to deployed app in minutes.
 
-## Ready to Launch
+### The Core Workflow
 
-Preview changes in real time, export your code, or deploy your app to the web. Easel gives you control and flexibility from day one.
+<Tip>
+  Easel is designed around a simple but powerful loop:
+</Tip>
 
-<CardGroup cols={2}>
-  <Card title="Export or Deploy" icon="upload" href="/deployment/deploying-your-app">
-    Push to GitHub, host on Easel, or deploy anywhere.
-  </Card>
-  <Card title="Own Your Code" icon="file-code" href="/how-easel-works/code-ownership">
-    Everything Easel creates is yours — version it, edit it, ship it.
-  </Card>
-</CardGroup>
+```text
+Describe → Generate → Edit (optional) → Preview → Deploy (optional)
+```
+
+- **Describe** your app or feature in plain language.
+- Easel **generates** the UI, layout, and logic instantly.
+- **Edit** using the visual editor, the code view, or more prompts.
+- See your app in the **live preview** as you go.
+- When you're ready, **deploy** or export your code.
+
+<Check>
+  You can always switch between visual editing and code. And everything you see is real, editable code — no black boxes or hidden systems.
+</Check>
+
+### What can you build with Easel?
+
+Easel can build landing pages, forms, individual components, apps, and more.
