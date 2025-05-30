@@ -15,7 +15,7 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "introduction/message-limits"
             ]
           },
           {
