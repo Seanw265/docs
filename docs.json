@@ -17,17 +17,6 @@
               "quickstart",
               "introduction/message-limits"
             ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
           }
         ],
     "global": {
@@ -63,7 +52,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Easel App",
+      "label": "Go to Easel",
       "href": "https://tryeasel.dev/app"
     }
   },
