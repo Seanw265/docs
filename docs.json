@@ -16,15 +16,16 @@
   "favicon": "/favicon.ico",
   "navigation": {
     "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "index",
-              "quickstart",
-              "introduction/message-limits"
-            ]
-          }
-        ],
+      {
+        "group": "Changelog",
+        "pages": ["changelog"]
+      },
+      {
+        "group": "Introduction",
+        "pages": ["index", "quickstart", "introduction/message-limits"]
+      }
+    ],
+
     "global": {
       "anchors": [
         {
@@ -51,6 +52,11 @@
           "anchor": "Careers",
           "href": "https://tryeasel.dev/careers",
           "icon": "briefcase"
+        },
+        {
+          "anchor": "Feedback",
+          "href": "https://easel.featurebase.app",
+          "icon": "comment"
         }
       ]
     }
